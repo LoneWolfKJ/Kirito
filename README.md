@@ -13,6 +13,7 @@ is little or no internet connectivity, can use the app. After the user votes, wh
 2. **web3.js** - To integrate our smart contract with the restful API.
 3. **Solidity** - For writing smart contracts.
 4. **Azure blockchain** - To deploy the blockchain.
+5. **RabbitMQ** - To send confirmation message to the users.
 
 # **Implementation of the app**
 <<<<<<< HEAD
@@ -27,6 +28,7 @@ The implementation is quite intriguing. Starting with the frontend, the users wi
 =======
 
 # **Group Name - Kirito**
+<<<<<<< HEAD
 # *Team Members :- *
 <<<<<<< HEAD
 1.) Ayush Shah
@@ -34,6 +36,9 @@ The implementation is quite intriguing. Starting with the frontend, the users wi
 3.) Abhishek Sahai
 >>>>>>> c581632... Update README.md
 =======
+=======
+# Team Members :- 
+>>>>>>> 20effa5... Update README.md
 ##### 1.) Ayush Shah
 ##### 2.) Kanjal Dalal
 ##### 3.) Abhishek Sahai
