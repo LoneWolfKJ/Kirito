@@ -28,7 +28,13 @@ The implementation is quite intriguing. Starting with the frontend, the users wi
 
 # **Group Name - Kirito**
 # *Team Members :- *
+<<<<<<< HEAD
 1.) Ayush Shah
 2.) Kanjal Dalal
 3.) Abhishek Sahai
 >>>>>>> c581632... Update README.md
+=======
+##### 1.) Ayush Shah
+##### 2.) Kanjal Dalal
+##### 3.) Abhishek Sahai
+>>>>>>> 13413c5... Update README.md
