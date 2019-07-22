@@ -4,8 +4,7 @@
 
 The current voting scenario is quite unappealing. Especially for people living away from their own constituency. This problem can be solved using online decentralized voting system which is made reliable, transparent and secure using blockchain.
  
-VoteBlocks is a decentralised platform which does exactly that. The user can enter their details including their voter id and the delegate to whom they prefer to vote ("none" option available). In addition to this the users, using the app in an area where there
-is little or no internet connectivity, can use the app. After the user votes, when the internet connection is available the user's vote will automatically be counted and saved in the blockchain. The person will be remembered in the blockchain and will be prevented from voting for the second time. Vote counting is **automatic** and **completely transparent** at the same time. At the end of the voting time, the delegate with the largest number of votes will be displayed along with the number of votes the delegate has earned. 
+VoteBlocks is a decentralised platform which does exactly that. The user can enter their details including their voter id and the candidate to whom they prefer to vote ("none" option available). In addition to this the users, using the app in an area where there is little or no internet connectivity, can use the app. After the user votes, when the internet connection is available the user's vote will automatically be counted and saved in the blockchain. The person will be remembered in the blockchain and will be prevented from voting for the second time. Vote counting is **automatic** and **completely transparent** at the same time. At the end of the voting time, the candidate with the largest number of votes will be displayed along with the number of votes the candidate has earned. 
 
 # **Techstack used**
 
@@ -16,6 +15,7 @@ is little or no internet connectivity, can use the app. After the user votes, wh
 5. **RabbitMQ** - To send confirmation message to the users.
 
 # **Implementation of the app**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -43,3 +43,7 @@ The implementation is quite intriguing. Starting with the frontend, the users wi
 ##### 2.) Kanjal Dalal
 ##### 3.) Abhishek Sahai
 >>>>>>> 13413c5... Update README.md
+=======
+
+Starting with the frontend, the users will be provided a form wherein they will be required to fill their voter id, full name, the candidate to whom they want to vote.Then a post request will be made to our API, and if there is no network connection or little network connection then a time limit is set after which the form will try to make a post request to the API. When the API accepts the request a new block is created in the blockchain for the new user and the address of the block for that user is mapped to a structure which holds a bool variable(to check whether user have already voted or not and cannot vote for the 2nd time) and the candidate to whom he is voting. Now to make vote counting automatic and less time consuming we will maintain a seperate map for the candidates which will keep track of the number of votes earned by the candidate till now.  A functionality to send SMS/Email on sucessful vote without increasing perceived user latency using RabbitMQ would also be implemented. As soon as the voting period ends the function Winning_Candidate returns and displays the winning candidate along with the number of votes earned.
+>>>>>>> 2f81e61... Implementation added
