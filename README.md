@@ -37,9 +37,9 @@ Starting with the frontend, the users will be provided a form wherein they will 
 =======
 =======
 # **Idea**
-The idea is quite simple yet intriguing. Starting with the frontend, the users will be provided a form wherein they will be required to fill their voter id, a secure password, full name, the delegate to whom they want to vote. This data would then be recieved by our api, which would verify that the given data is valid (ie:- exists in the database). 
+The idea is quite simple yet intriguing. Starting with the frontend, the users will be provided a form wherein they will be required to fill their voter id, a secure password(some record which is not available publically), full name, the delegate to whom they want to vote. This data would then be recieved by our api, which would verify that the given data is valid (ie:- exists in the database). 
 
-Incase the user has connectivity problems, the webapp would be having offline support for post requests, the data entered would be encrypted and stored locally and then sent. In this way the data would remain secure even while stored locally. For offline post requests we plan to do it similarly as stated in [this article](https://medium.com/web-on-the-edge/offline-posts-with-progressive-web-apps-fc2dc4ad895) from medium.
+Incase the user has connectivity problems, the webapp would be having offline support for post requests, the data entered would be encrypted and stored locally and then sent when internet is available in the next 10min else send a message of try again. In this way the data would remain secure even while stored locally. For offline post requests we plan to do it similarly as stated in [this article](https://medium.com/web-on-the-edge/offline-posts-with-progressive-web-apps-fc2dc4ad895) from medium.
 
 The post request would be handled by the controller and If its valid (ie - the voter id exists in the database and relevant details match), a new block is created in the blockchain for the new user and the address of the block for that user is mapped to a structure which holds a bool variable(to check whether user have already voted or not and cannot vote for the 2nd time) and the candidate to whom he is voting.
 
