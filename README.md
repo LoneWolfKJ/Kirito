@@ -8,7 +8,7 @@ VoteBlocks is a decentralised platform which does exactly that. The user can ent
 
 ## **Techstack used**
 
-1. **Spring boot**
+1. **Spring Boot**
 2. **MongoDB**
 3. **Web3.js**
 4. **Solidity**
@@ -38,10 +38,10 @@ Finally we will be deploying our blockchain to the Azure Blockchain .
 
 ## **How it is Useful**
 
- 1) It enable's voters to vote from anywhere during the voting period. This especially helps those living outside their registered constituencies.
+ 1) It enable's voters to vote from anywhere during the Voting Period. This especially helps those living outside their registered Constituencies.
  2) It makes vote counting an effortless, efficient and secure procedure. The result of any elections could be declared in minutes from when the voting ends.
- 3) During elections, the need to stand in long lines is eradicated and time is thus saved, even for people from rural area's with sparse connectivity to the net.
- 4) After elections the voting system could easily be made transparent and help the voter's know that their vote has been counted correctly and no unfair process has taken place.
+ 3) During Elections, the need to stand in long lines is eradicated and time is thus saved, even for people from rural area's with sparse connectivity to the net.
+ 4) After Elections the voting system could easily be made transparent and help the voter's know that their vote has been counted correctly and no unfair process has taken place.
 
 ## **Team - Kirito**
 
