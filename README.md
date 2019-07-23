@@ -10,13 +10,14 @@ VoteBlocks is a decentralised platform which does exactly that. The user can ent
 
 1. **Spring boot**
 2. **MongoDB**
-3. **web3.js**
+3. **Web3.js**
 4. **Solidity**
 5. **Docker**
 6. **RabbitMQ**
 7. **Azure blockchain**
 
 # **Idea**
+
 The idea is quite simple yet intriguing. Starting with the frontend, the users will be provided a form wherein they will be required to fill their voter id, a secure password(some record which is not available publically), full name, the delegate to whom they want to vote. This data would then be recieved by our api, which would verify that the given data is valid (ie:- exists in the database). 
 
 Incase the user has connectivity problems, the webapp would be having offline support for post requests, the data entered would be encrypted and stored locally and then sent when internet is available in the next 10min else send a message of try again. In this way the data would remain secure even while stored locally. For offline post requests we plan to do it similarly as stated in [this article](https://medium.com/web-on-the-edge/offline-posts-with-progressive-web-apps-fc2dc4ad895) from medium.
@@ -32,11 +33,13 @@ For the database we would require details like the person's name, voter id, aadh
 Finally we will be deploying our blockchain to the Azure Blockchain .
 
 ## Workflow
-![workflow of the blockchain transaction](https://github.com/LoneWolfKJ/Kirito/tree/master/Workflow/workflow.PNG)
+
+![workflow of the blockchain transaction](https://github.com/LoneWolfKJ/Kirito/blob/master/Workflow/workflow.png)
 
 ## **How it is Useful**
- 1) It enable's voters to vote from anywhere during the voting period.
- 2) It makes vote counting an effortless, efficient and secure procedure. The result of any elections could be declared in minutes from when the voting ends
+
+ 1) It enable's voters to vote from anywhere during the voting period. This especially helps those living outside their registered constituencies.
+ 2) It makes vote counting an effortless, efficient and secure procedure. The result of any elections could be declared in minutes from when the voting ends.
  3) During elections, the need to stand in long lines is eradicated and time is thus saved, even for people from rural area's with sparse connectivity to the net.
  4) After elections the voting system could easily be made transparent and help the voter's know that their vote has been counted correctly and no unfair process has taken place.
 
