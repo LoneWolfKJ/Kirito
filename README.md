@@ -46,7 +46,9 @@ The post request would be handled by the controller and If its valid (ie - the v
 >>>>>>> e203ec5... Update README.md
 Also initially blocks for the representatives would be created and their address used as a key for a map which would hold his/her votes obtained. This would help make vote counting automatic and less time consuming.
 
-A functionality to send SMS/Email without increasing perceived user latency using RabbitMQ would be implemented
+A functionality to send SMS/Email without increasing perceived user latency using RabbitMQ would be implemented.
+
+For the database we would require details like the person's name, voter id, aadhar no (or whatever the record we would use as password) etc. For now we would populate the database with data as per our requirements.
 
 links reffered - 
 https://dzone.com/articles/introduction-to-blockchain-with-java-using-ethereu-1
