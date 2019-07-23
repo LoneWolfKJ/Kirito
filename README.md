@@ -1,8 +1,8 @@
 # VoteBlocks 
 
-## **Idea**
+## **Introduction**
 
-The current voting scenario is quite unappealing. Especially for people living away from their own constituency. This problem can be solved using online decentralized voting system which is made reliable, transparent and secure using blockchain. Initally, we were planning to use the Hyperledger Fabric, but it's not compatible with the Azure Blockchain Workbench. Hence, we will be using the Ethereum based implementation for the purpose of this hackathon. Ethereum uses Proof of Stake consensus and is permissioned blockchain.
+The current voting scenario is quite unappealing. Especially for people living away from their own constituency. This problem can be solved using online decentralized voting system which is made reliable, transparent and secure using blockchain. Hence, we will be using the Ethereum based implementation. Ethereum uses Proof of Stake consensus and is permissioned blockchain.
  
 VoteBlocks is a decentralised platform which does exactly that. The user can enter their details including their voter id and the candidate to whom they prefer to vote ("none" option available). In addition to this the users, using the app in an area where there is little or no internet connectivity, can use the app. After the user votes, when the internet connection is available the user's vote will automatically be counted and saved in the blockchain. The person will be remembered in the blockchain and will be prevented from voting for the second time. Vote counting is **automatic** and **completely transparent** at the same time. At the end of the voting time, the candidate with the largest number of votes will be displayed along with the number of votes the candidate has earned. 
 
@@ -35,6 +35,7 @@ VoteBlocks is a decentralised platform which does exactly that. The user can ent
 7. **Azure blockchain**
 >>>>>>> 2abb59d... Update README.md
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # **Implementation of the app**
@@ -82,6 +83,7 @@ Starting with the frontend, the users will be provided a form wherein they will 
 Starting with the frontend, the users will be provided a form wherein they will be required to fill their voter id, full name, the candidate to whom they want to vote.Then a post request will be made to our API, and if there is no network connection or little network connection then a time limit of 'x' minutes is set, after every x minutes the form will try to make a post request to the API. When the API accepts the request, a new block is created in the blockchain for the new user and the address of the block for that user is mapped to a structure which holds a bool variable(to check whether user have already voted or not and cannot vote for the 2nd time) and the candidate to whom he is voting. Now to make vote counting automatic and less time consuming we will maintain a seperate map for the candidates which will keep track of the number of votes earned by the candidate till now.  A functionality to send SMS/Email on sucessful vote without increasing perceived user latency using RabbitMQ would also be implemented. As soon as the voting period ends the function Winning_Candidate returns and displays the winning candidate along with the number of votes earned.
 >>>>>>> 06dd94c... updated
 
+<<<<<<< HEAD
 ## **Team - Kirito**
 
 ### **Birla Institute of Tehnology Mesra**
@@ -118,6 +120,12 @@ The implementation is quite simple yet intriguing. Starting with the frontend, t
 The idea is quite simple yet intriguing. Starting with the frontend, the users will be provided a form wherein they will be required to fill their voter id, a secure password, full name, the delegate to whom they want to vote. This data would then be recieved by our api, which would verify that the given data is valid (ie:- exists in the database). 
 >>>>>>> e203ec5... Update README.md
 =======
+=======
+# **Implementation**
+>>>>>>> 3bb9f19... updated
+=======
+# **Idea**
+>>>>>>> bc7b053... Update README.md
 The idea is quite simple yet intriguing. Starting with the frontend, the users will be provided a form wherein they will be required to fill their voter id, a secure password(some record which is not available publically), full name, the delegate to whom they want to vote. This data would then be recieved by our api, which would verify that the given data is valid (ie:- exists in the database). 
 >>>>>>> 91943c9... Update README.md
 
@@ -155,6 +163,7 @@ A functionality to send SMS/Email without increasing perceived user latency usin
 =======
 A functionality to send SMS/Email without increasing perceived user latency using RabbitMQ would be implemented.
 
+<<<<<<< HEAD
 For the database we would require details like the person's name, voter id, aadhar no (or whatever the record we would use as password) etc. For now we would populate the database with data as per our requirements.
 >>>>>>> 165ceb6... Update README.md
 
@@ -164,6 +173,10 @@ For the database we would require details like the person's name, voter id, aadh
 =======
 >>>>>>> 6e5c9d5... Update README.md
 =======
+=======
+For the database we would require details like the person's name, voter id, aadhar no (or whatever the record we would use as password) etc. For now we would populate the database with data as per our requirements. Finally we will be deploying our blockchain to the Azure Blockchain .
+
+>>>>>>> b7673ea... updated
 ## **How it is Useful**
  1) It enable's voters to vote from anywhere during the voting period.
  2) It makes vote counting an effortless, efficient and secure procedure. The result of any elections could be declared in minutes from when the voting ends
