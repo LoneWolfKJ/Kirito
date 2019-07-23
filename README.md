@@ -56,8 +56,13 @@ For the database we would require details like the person's name, voter id, aadh
 
 Finally we will be deploying our blockchain to the Azure Blockchain .
 
+<<<<<<< HEAD
 links reffered - 
 https://dzone.com/articles/introduction-to-blockchain-with-java-using-ethereu-1
+=======
+## Workflow
+![workflow of the blockchain transaction](https://github.com/LoneWolfKJ/Kirito/blob/master/Workflow/workflow.png)
+>>>>>>> 7c85b89... updated link
 
 https://dzone.com/articles/spring-boot-and-web3j-easy-microservices-for-the-e
 
