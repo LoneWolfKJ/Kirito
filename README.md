@@ -1,6 +1,6 @@
 # VoteBlocks 
 
-## **Introduction**
+## **Idea**
 
 The current voting scenario is quite unappealing. Especially for people living away from their own constituency. This problem can be solved using online decentralized voting system which is made reliable, transparent and secure using blockchain. Initally, we were planning to use the Hyperledger Fabric, but it's not compatible with the Azure Blockchain Workbench. Hence, we will be using the Ethereum based implementation for the purpose of this hackathon. Ethereum uses Proof of Stake consensus and is permissioned blockchain.
  
@@ -158,10 +158,19 @@ A functionality to send SMS/Email without increasing perceived user latency usin
 For the database we would require details like the person's name, voter id, aadhar no (or whatever the record we would use as password) etc. For now we would populate the database with data as per our requirements.
 >>>>>>> 165ceb6... Update README.md
 
+<<<<<<< HEAD
 =======
 >>>>>>> f888143... Update README.md
 =======
 >>>>>>> 6e5c9d5... Update README.md
+=======
+## **How it is Useful**
+ 1) It enable's voters to vote from anywhere during the voting period.
+ 2) It makes vote counting an effortless, efficient and secure procedure. The result of any elections could be declared in minutes from when the voting ends
+ 3) During elections, the need to stand in long lines is eradicated and time is thus saved, even for people from rural area's with sparse connectivity to the net.
+ 4) After elections the voting system could easily be made transparent and help the voter's know that their vote has been counted correctly and no unfair process has taken place.
+
+>>>>>>> f1cdd8a... use case
 ## **Team - Kirito**
 
 ### **Birla Institute of Tehnology Mesra**
