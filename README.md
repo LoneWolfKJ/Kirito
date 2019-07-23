@@ -48,16 +48,19 @@ Also initially blocks for the representatives would be created and their address
 
 A functionality to send SMS/Email on sucessful vote without increasing perceived user latency using RabbitMQ would also be implemented
 
-usefull links to be reffered - 
+links reffered - 
 https://dzone.com/articles/introduction-to-blockchain-with-java-using-ethereu-1
 
 https://dzone.com/articles/spring-boot-and-web3j-easy-microservices-for-the-e
 
 https://piotrminkowski.wordpress.com/2018/06/22/introduction-to-blockchain-with-java-using-ethereum-web3j-and-spring-boot/ 
 
+<<<<<<< HEAD
 https://shazsterblog.blogspot.com/2017/10/java-spring-boot-implementation-of.html
 >>>>>>> 5de3323... Update README.md
 
+=======
+>>>>>>> f888143... Update README.md
 ## **Team - Kirito**
 
 ### **Birla Institute of Tehnology Mesra**
