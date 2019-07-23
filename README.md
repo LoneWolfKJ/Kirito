@@ -31,7 +31,22 @@ Starting with the frontend, the users will be provided a form wherein they will 
 =======
 ## **Implementation of the app**
 
+<<<<<<< HEAD
 Starting with the frontend, the users will be provided a form wherein they will be required to fill their voter id, full name, the candidate to whom they want to vote.Then a post request will be made to our API, and if there is no network connection or little network connection then a time limit of 'x' minutes is set, after every x minutes the form will try to make a post request to the API. When the API accepts the request, a new block is created in the blockchain for the new user and the address of the block for that user is mapped to a structure which holds a bool variable(to check whether user have already voted or not and cannot vote for the 2nd time) and the candidate to whom he is voting. Now to make vote counting automatic and less time consuming we will maintain a seperate map for the candidates which will keep track of the number of votes earned by the candidate till now.  A functionality to send SMS/Email on sucessful vote without increasing perceived user latency using RabbitMQ would also be implemented. As soon as the voting period ends the function Winning_Candidate returns and displays the winning candidate along with the number of votes earned.
+=======
+Also initially blocks for the representatives would be created and their address used as a key for a map which would hold his/her votes obtained. This would help make vote counting automatic and less time consuming.
+
+A functionality to send SMS/Email on sucessful vote without increasing perceived user latency using RabbitMQ would also be implemented
+
+usefull links to be reffered - 
+https://dzone.com/articles/introduction-to-blockchain-with-java-using-ethereu-1
+
+https://dzone.com/articles/spring-boot-and-web3j-easy-microservices-for-the-e
+
+https://piotrminkowski.wordpress.com/2018/06/22/introduction-to-blockchain-with-java-using-ethereum-web3j-and-spring-boot/ 
+
+https://shazsterblog.blogspot.com/2017/10/java-spring-boot-implementation-of.html
+>>>>>>> 5de3323... Update README.md
 
 ## **Team - Kirito**
 
