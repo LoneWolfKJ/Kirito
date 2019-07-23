@@ -8,6 +8,7 @@ VoteBlocks is a decentralised platform which does exactly that. The user can ent
 
 ## **Techstack used**
 
+<<<<<<< HEAD
 1. **Spring boot** - For making RESTful API.
 2. **web3.js** - To integrate our smart contract with the RESTful API.
 3. **Solidity** - For writing smart contracts.
@@ -37,6 +38,16 @@ Starting with the frontend, the users will be provided a form wherein they will 
 Starting with the frontend, the users will be provided a form wherein they will be required to fill their voter id, full name, the candidate to whom they want to vote.Then a post request will be made to our API, and if there is no network connection or little network connection then a time limit of 'x' minutes is set, after every x minutes the form will try to make a post request to the API. When the API accepts the request, a new block is created in the blockchain for the new user and the address of the block for that user is mapped to a structure which holds a bool variable(to check whether user have already voted or not and cannot vote for the 2nd time) and the candidate to whom he is voting. Now to make vote counting automatic and less time consuming we will maintain a seperate map for the candidates which will keep track of the number of votes earned by the candidate till now.  A functionality to send SMS/Email on sucessful vote without increasing perceived user latency using RabbitMQ would also be implemented. As soon as the voting period ends the function Winning_Candidate returns and displays the winning candidate along with the number of votes earned.
 =======
 =======
+=======
+1. **Spring Boot**
+2. **MongoDB**
+3. **Web3.js**
+4. **Solidity**
+5. **Docker**
+6. **RabbitMQ**
+7. **Azure blockchain**
+
+>>>>>>> b3288be... final changes
 # **Idea**
 =======
 # **Implementation**
@@ -66,7 +77,14 @@ https://dzone.com/articles/introduction-to-blockchain-with-java-using-ethereu-1
 
 https://dzone.com/articles/spring-boot-and-web3j-easy-microservices-for-the-e
 
+<<<<<<< HEAD
 https://piotrminkowski.wordpress.com/2018/06/22/introduction-to-blockchain-with-java-using-ethereum-web3j-and-spring-boot/ 
+=======
+ 1) It enable's voters to vote from anywhere during the Voting Period. This especially helps those living outside their registered Constituencies.
+ 2) It makes vote counting an effortless, efficient and secure procedure. The result of any elections could be declared in minutes from when the voting ends.
+ 3) During Elections, the need to stand in long lines is eradicated and time is thus saved, even for people from rural area's with sparse connectivity to the net.
+ 4) After Elections the voting system could easily be made transparent and help the voter's know that their vote has been counted correctly and no unfair process has taken place.
+>>>>>>> b3288be... final changes
 
 <<<<<<< HEAD
 https://shazsterblog.blogspot.com/2017/10/java-spring-boot-implementation-of.html
