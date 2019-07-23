@@ -2,7 +2,7 @@
 
 ## **Introduction**
 
-The current voting scenario is quite unappealing. Especially for people living away from their own constituency. This problem can be solved using online decentralized voting system which is made reliable, transparent and secure using blockchain. Hence, we will be using the Ethereum based implementation. Ethereum uses Proof of Stake consensus and is permissioned blockchain.
+The current voting scenario is quite unappealing. Especially for people living away from their own constituency. This problem can be solved using online decentralized voting system which is made reliable, transparent and secure using blockchain.We will be using the Ethereum based implementation. Ethereum uses Proof of Stake consensus and is permissioned blockchain.
  
 VoteBlocks is a decentralised platform which does exactly that. The user can enter their details including their voter id and the candidate to whom they prefer to vote ("none" option available). In addition to this the users, using the app in an area where there is little or no internet connectivity, can use the app. After the user votes, when the internet connection is available the user's vote will automatically be counted and saved in the blockchain. The person will be remembered in the blockchain and will be prevented from voting for the second time. Vote counting is **automatic** and **completely transparent** at the same time. At the end of the voting time, the candidate with the largest number of votes will be displayed along with the number of votes the candidate has earned. 
 
@@ -52,7 +52,9 @@ Also initially blocks for the representatives would be created and their address
 
 A functionality to send SMS/Email without increasing perceived user latency using RabbitMQ would be implemented.
 
-For the database we would require details like the person's name, voter id, aadhar no (or whatever the record we would use as password) etc. For now we would populate the database with data as per our requirements. Finally we will be deploying our blockchain to the Azure Blockchain .
+For the database we would require details like the person's name, voter id, aadhar no (or whatever the record we would use as password) etc. For now we would populate the database with data as per our requirements.
+
+Finally we will be deploying our blockchain to the Azure Blockchain .
 
 links reffered - 
 https://dzone.com/articles/introduction-to-blockchain-with-java-using-ethereu-1
