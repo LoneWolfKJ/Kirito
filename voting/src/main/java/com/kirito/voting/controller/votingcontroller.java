@@ -51,10 +51,16 @@ public class votingcontroller {
     public static final String VOTING_API_ENDPOINT = "/voting/v1";
     public static final String VOTING_API = "/vote";
 
-
     @Autowired
     private votingService votingservice;
 
+    /*
+    {
+	    "voterid" : "9999999993",
+	    "aadhar" : "9292929294",
+	    "voteto": "Modi"
+    }
+    */
     @PostMapping(VOTING_API)
     public ResponseEntity<voteresponse> vote(@RequestBody getVote getvote){
         try {
