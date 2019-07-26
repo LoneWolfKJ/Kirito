@@ -1,6 +1,9 @@
 package com.kirito.voting.controller;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c179786... controller
 import com.kirito.voting.dto.getVote;
 import com.kirito.voting.dto.voteresponse;
 import com.kirito.voting.services.votingService;
@@ -16,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Log4j2
 @RequestMapping(votingcontroller.VOTING_API_ENDPOINT)
+<<<<<<< HEAD
 public class votingcontroller {
     public static final String VOTING_API_ENDPOINT = "/voting/v1";
     public static final String VOTING_API = "/vote";
@@ -42,4 +46,23 @@ public class votingcontroller {
 =======
 public class votingcontroller {
 >>>>>>> 29229d6... structure
+=======
+public class votingcontroller {
+    public static final String VOTING_API_ENDPOINT = "/voting/v1";
+    public static final String VOTING_API = "/vote";
+
+
+    @Autowired
+    private votingService votingservice;
+
+    @PostMapping(VOTING_API)
+    public ResponseEntity<voteresponse> vote(@RequestBody getVote getvote){
+        try {
+            voteresponse response = votingservice.givevote(getvote);
+            return ResponseEntity.ok().body(response);
+        } catch (Exception x) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
+        }
+    }
+>>>>>>> c179786... controller
 }
