@@ -1,5 +1,6 @@
 package com.kirito.voting.controller;
 
+<<<<<<< HEAD
 import com.kirito.voting.dto.getVote;
 import com.kirito.voting.dto.voteresponse;
 import com.kirito.voting.services.votingService;
@@ -38,4 +39,7 @@ public class votingcontroller {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
         }
     }
+=======
+public class votingcontroller {
+>>>>>>> 29229d6... structure
 }
