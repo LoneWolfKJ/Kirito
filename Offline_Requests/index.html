@@ -22,18 +22,18 @@
                 <input placeholder="Your Phone Number " type="tel" tabindex="3" required>
               </fieldset>
               <fieldset>
-                <input placeholder="Your Voter ID" type="text" tabindex="4" required>
+                <input placeholder="Your Voter ID" id="vote" type="text" tabindex="4" required>
               </fieldset>
               <fieldset>
-                <input placeholder="Password" type="password" tabindex="4" required></input>
+                <input placeholder="Password" id="pass" type="password" tabindex="4" required></input>
               </fieldset>
-              Your Choice 
+              <h4>Your Choice</h4> 
               <fieldset>
-                  <input type="radio" name="c1" value="candidate1">Candidate 1<br>
-                  <input type="radio" name="c1" value="candidate2">Candidate 2<br>
-                  <input type="radio" name="c1" value="candidate3">Candidate 3<br>
-                  <input type="radio" name="c1" value="candidate4">Candidate 4<br>
-                  <input type="radio" name="c1" value="none">None of the above<br>
+                  <input type="radio" name="c1" id="delegate" value="candidate1" required>Candidate 1<br>
+                  <input type="radio" name="c1" id="delegate" value="candidate2" required>Candidate 2<br>
+                  <input type="radio" name="c1" id="delegate" value="candidate3" required>Candidate 3<br>
+                  <input type="radio" name="c1" id="delegate" value="candidate4" required>Candidate 4<br>
+                  <input type="radio" name="c1" id="delegate" value="none" required>None of the above<br>
               </fieldset>
               <fieldset>
                 <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
@@ -42,6 +42,7 @@
             </form>
           </div>
         
-        <script src="" async defer></script>
+        <script src="./index.js" type = "module" async defer></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     </body>
 </html>
