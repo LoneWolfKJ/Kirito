@@ -9,6 +9,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./style.css">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     </head>
     <body>
         <div class="container">  
@@ -25,12 +26,12 @@
                 <input placeholder="Your Phone Number (optional) " type="tel" tabindex="3" >
               </fieldset>
               <fieldset>
-                <input placeholder="Your Voter ID" id="vote" type="text" tabindex="4" required>
+                <input placeholder="Your Voter ID" id="vote" name="voterid" type="text" tabindex="4" required>
               </fieldset>
               <fieldset>
-                <input placeholder="Password" id="pass" type="password" tabindex="4" required></input>
+                <input placeholder="Password" id="pass" name="password" type="password" tabindex="4" required></input>
               </fieldset>
-              <h4>Your Choice</h4> 
+              <h2>Your Choice</h2> 
               <fieldset>
                   <input type="radio" name="c1" id="delegate" value="candidate1" required>Candidate 1<br>
                   <input type="radio" name="c1" id="delegate" value="candidate2" required>Candidate 2<br>
@@ -44,9 +45,10 @@
             
             </form>
           </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>  
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="./index.js" type = "module" async defer></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="./index.html" type = "module" async defer></script>
         <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
     </body>
 </html>
