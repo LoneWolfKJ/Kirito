@@ -1,6 +1,8 @@
 plugins {
 	id 'org.springframework.boot' version '2.1.6.RELEASE'
 	id 'java'
+    id 'java-library'
+    id 'application'
 }
 
 apply plugin: 'io.spring.dependency-management'
@@ -50,3 +52,5 @@ dependencyManagement {
 		mavenBom "com.microsoft.azure:azure-spring-boot-bom:${azureVersion}"
 	}
 }
+
+//mainClassName = 'main'
