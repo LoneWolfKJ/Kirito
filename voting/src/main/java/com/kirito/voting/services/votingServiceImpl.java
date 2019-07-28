@@ -11,6 +11,7 @@ public class votingServiceImpl implements votingService{
 
     @Autowired
     votingdbservice Votingdbservice;
+
     @Override
     public voteresponse givevote(getVote getvote) {
         voteresponse Voterresult = new voteresponse();
