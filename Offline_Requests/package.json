@@ -4,7 +4,7 @@
   "description": "Sending offline POST requests",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "node index.js"
   },
   "author": "Ayush Shah",
   "license": "MIT",
