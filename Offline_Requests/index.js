@@ -15,7 +15,7 @@ const postData = {
     password: "document.getElementById('pass').value",
     vote_to: "document.getElementById('delegate').value"
 };
-const Url = '/voting/v1/vote';
+const Url = 'http://localhost:8080/voting/v1/vote';
 
 //   let axiosConfig = {
 //     headers: {
