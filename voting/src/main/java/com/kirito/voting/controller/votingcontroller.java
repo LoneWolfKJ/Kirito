@@ -1,12 +1,6 @@
 package com.kirito.voting.controller;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c179786... controller
-=======
->>>>>>> 61a0f32... Revert "merged"
+
 import com.kirito.voting.dto.getVote;
 import com.kirito.voting.dto.voteresponse;
 import com.kirito.voting.services.votingService;
@@ -22,10 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Log4j2
 @RequestMapping(votingcontroller.VOTING_API_ENDPOINT)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 61a0f32... Revert "merged"
 public class votingcontroller {
     public static final String VOTING_API_ENDPOINT = "/voting/v1";
     public static final String VOTING_API = "/vote";
@@ -49,11 +39,7 @@ public class votingcontroller {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
         }
     }
-<<<<<<< HEAD
-=======
-public class votingcontroller {
->>>>>>> 29229d6... structure
-=======
+
 public class votingcontroller {
     public static final String VOTING_API_ENDPOINT = "/voting/v1";
     public static final String VOTING_API = "/vote";
@@ -77,7 +63,4 @@ public class votingcontroller {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
         }
     }
->>>>>>> c179786... controller
-=======
->>>>>>> 61a0f32... Revert "merged"
 }
